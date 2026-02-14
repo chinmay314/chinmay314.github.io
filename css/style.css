@@ -4,6 +4,14 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+nav {
+  background-color: #9b9bb6;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: large;
+}
+
 h1, h2, h3, h4 {
   color: #C65757; 
 }
@@ -16,6 +24,14 @@ a {
   color: #DB4D57;
   text-decoration: none;
   transition: color 0.2s;
+}
+
+nav a {
+  color: #DB4D57;
+}
+
+nav {
+
 }
 
 a:hover {
@@ -102,7 +118,7 @@ hr {
 }
 
 .submit-btn {
-  background-color: #DB4D57;
+  background-color: #0E2924;
   color: #fff;
   border: none;
   padding: 12px;
@@ -119,4 +135,35 @@ footer {
   padding: 20px;
   border-top: 1px solid #444;
   color: #bbb;
+}
+
+.list-inline {
+  display: flex;
+  justify-content: center;
+}
+
+.list-inline li {
+  transition: transform 0.3s ease;
+}
+.list-inline li:hover {
+  transform: translateY(-10px);
+  
+}
+
+.one-col input[type="text"],
+.one-col input[type="email"],
+.one-col textarea {
+  max-width: 600px;
+  margin-left: 1rem;
+  background-color: lavender;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #092918;
+  padding: 6px 8px;
+}
+
+.one-col textarea {
+  min-height: 100px;
+  line-height: 1.2;
 }
